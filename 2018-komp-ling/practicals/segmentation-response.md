@@ -77,8 +77,10 @@ TBD
 # Tokenisation
 
 Here is my implementation of maxmatch algorightm:
+
 [dsmaxmatch](segmentation/python_code/ds_maxmatch.py)
-And here is the full code that parses train file for dictionary and then applies maxmatch to the sentences from train file. 
+
+And here is the full code that parses train file for dictionary and then applies maxmatch to the sentences from train file:
 
 [maxmatch tokenizer] (segmentation/python_code/ds_maxmatch_tokenizer.py)
 
