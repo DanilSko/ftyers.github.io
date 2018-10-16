@@ -95,3 +95,7 @@ Example:
 
 `$ python3 python_code/ds_maxmatch_tokenizer.py input_for_tokenisation/ja_gsd-ud-train.conllu input_for_tokenisation/ja_gsd-ud-test.conllu word_tokenisation_results/maxmatch_output.txt`
 
+
+## Evaluation
+
+*here be evaluation*
