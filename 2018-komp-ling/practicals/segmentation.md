@@ -13,7 +13,7 @@ Used this bash command (suggested by Fran) to get first 10000 par, sort them ran
 
 ## Setp three: segment it with nltk tokenize
 
-My most basic Python code that does sent tokenize to stdin is [here](2018-komp-ling/practicals/segmentation/python_code/nltk_tokenize_from_stdin.py)
+My most basic Python code that does sent tokenize to stdin is [here](segmentation/python_code/nltk_tokenize_from_stdin.py)
 
 And this bash command that launches it on sample file and outputs segmentation results to results folder:
 
