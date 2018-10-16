@@ -30,13 +30,13 @@ So, both files are here:
 ### Pragmatic segmenter issues:
 Splits intitials:
 
-При закладке завода присутствовал В.
+*При закладке завода присутствовал В.
  Н.
- Татищев.
+ Татищев.*
 
-В рукописи «Описание Уральских и Сибирских заводов. 1735 г.» В.
+*В рукописи «Описание Уральских и Сибирских заводов. 1735 г.» В.
 И.
-де Геннин писал:
+де Геннин писал:*
 
 Splits  н. э., т.п. and many other common short forms:
 
@@ -76,4 +76,20 @@ TBD
 
 # Tokenisation
 
-## Step 1
+Here is my implementation of maxmatch algorightm:
+[dsmaxmatch](segmentation/python_code/ds_maxmatch.py)
+And here is the full code that parses train file for dictionary and then applies maxmatch to the sentences from train file. 
+
+[maxmatch tokenizer] (segmentation/python_code/ds_maxmatch_tokenizer.py)
+
+
+It inputs paths to three files:
+
+1. the file to extract dictionary from
+2. the file with text to tokenize
+3. the output file
+
+Example:
+
+`$ python3 python_code/ds_maxmatch_tokenizer.py input_for_tokenisation/ja_gsd-ud-train.conllu input_for_tokenisation/ja_gsd-ud-test.conllu word_tokenisation_results/maxmatch_output.txt`
+
