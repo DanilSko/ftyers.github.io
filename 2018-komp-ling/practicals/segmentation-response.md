@@ -82,7 +82,7 @@ Here is my implementation of maxmatch algorightm:
 
 And here is the full code that parses train file for dictionary and then applies maxmatch to the sentences from train file:
 
-[maxmatch tokenizer] (segmentation/python_code/ds_maxmatch_tokenizer.py)
+[maxmatch tokenizer](segmentation/python_code/ds_maxmatch_tokenizer.py)
 
 
 It inputs paths to three files:
