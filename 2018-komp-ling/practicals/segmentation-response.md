@@ -22,7 +22,9 @@ And this bash command that launches it on sample file and outputs segmentation r
 ## Step four: look at the results and compare
 
 So, both files are here: 
+
 [Ruby results](segmentation/segmentation_results/prag_segm_result.txt)
+
 [Python results](segmentation/segmentation_results/nltk_punkt_results.txt)
 
 ### Pragmatic segmenter issues:
@@ -67,3 +69,11 @@ Handles some common abbreviations:
 
 *В 107 году н. э. японцы привезли в Китай 160 подданных китайского императора, которые ранее были захвачены разбойниками и проданы в Японию.*
 
+
+## Step five: calculate accuracy
+
+TBD
+
+# Tokenisation
+
+## Step 1
